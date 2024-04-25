@@ -16,13 +16,13 @@ export function VideoControls() {
       <span>{convertNumberToTime(totalTime)}</span>
       <button
         onClick={toggleExpanded}
-        className={isExpanded ? 'hidden' : 'block'} // Oculta o botão se estiver expandido
+        className={isExpanded ? 'hidden' : 'block'} 
       >
         <Expand />
       </button>
       <button
         onClick={toggleExpanded}
-        className={isExpanded ? 'block' : 'hidden'} // Exibe o botão se estiver expandido
+        className={isExpanded ? 'block' : 'hidden'} 
       >
         <span className="text-white">Exit Fullscreen</span>
       </button>
